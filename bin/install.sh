@@ -180,7 +180,7 @@ fi
 # @TODO
 # Remove me later. Cryptography 38.0.3 won't build at the moment.
 # See https://github.com/screenly/anthias/issues/1654
-sudo pip install cryptography==38.0.2
+sudo pip install cryptography
 
 sudo pip install "$ANSIBLE_VERSION"
 
